@@ -252,6 +252,9 @@ a:hover{
         display: block;
     }
 
+    .col{
+        margin-left: 0;
+    }
 
     .contact{
         width: 100%;
