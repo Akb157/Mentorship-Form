@@ -219,7 +219,7 @@ a:hover{
 
 @media(max-width: 750px){
     *{
-        margin: auto;
+        margin:0;
     }
 
     .top{
@@ -228,7 +228,7 @@ a:hover{
     }
 
     .top h1{
-        margin-left: 0;
+       margin: 1rem 0 2rem 0;
         text-align: center;
     }
 
