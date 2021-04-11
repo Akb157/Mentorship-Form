@@ -1,19 +1,32 @@
 
 body{
-    margin: 1rem;
+    margin: 0;
     background-color: rgb(92, 221, 210);
-    background-image: url("./Images/bckg.jpg");
+    background-image: url("./Images/background.jpeg");
+    font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 
 /* Front Page  */
 
-    
+.card{
+    background-image: url("./Images/bckg.jpg");
+    border: 4px solid black;
+    border-radius: 2rem;
+}
+
 .top{
-    margin: 0.5rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    height: 100vh;
     text-align: center;
     font-size: 2rem;
-    font-family: arial;
+}
+.top h1{
+    margin-left: 2.5rem;
 }
 
 .cards{
@@ -25,12 +38,10 @@ body{
     background-color: aqua;
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .dis{
     font-size: 1.2rem;
-    font-family: cursive;
     margin:0.5rem;
 }
 
@@ -49,7 +60,6 @@ body{
 button{
     margin: 0;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: rgb(87, 209, 87);
     font-size: 1rem;
@@ -66,7 +76,6 @@ button{
 fieldset{
     margin-top: 2rem;
     border: 5px solid black;
-    /* background-color: rgb(125, 201, 201); */
 }
 
 legend{
@@ -85,7 +94,6 @@ input[type=text], select , [type=email], textarea {
     width: 100%;
     padding: 12px 10px;
     margin: 8px 0;
-    /* display: inline-block; */
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
@@ -125,7 +133,6 @@ input[type=text], select , [type=email], textarea {
 
 .cont {
     font-size: 1.5rem;
-    font-family: cursive;
     border: 2px solid #ccc;
     background-color: #eee;
     border-radius: 5px;
@@ -155,6 +162,7 @@ input[type=text], select , [type=email], textarea {
 
 .fcont{
     background-color: rgb(146, 250, 245);
+    background-image: url(./Images/bckg.jpg);
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
@@ -172,14 +180,12 @@ input[type=text], select , [type=email], textarea {
 
 .col{
     margin-left: 3.5rem;
-    /* width: 50%; */
-    /* display: block; */
     width: 100%;
 
 }
 
 
-img{
+.contact img{
     max-width: 100%;
 }
 
@@ -211,14 +217,18 @@ a:hover{
 }
 
 
-
 @media(max-width: 750px){
     *{
-        margin: 0;
+        margin: auto;
     }
- 
+
     .top{
         display: inline;
+        text-align: center;
+    }
+
+    .top h1{
+        margin-left: 0;
         text-align: center;
     }
 
