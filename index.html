@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Mentorship Page</title>
+</head>
+<body>
+
+    <section id="Card">   
+        <div class="conttop">
+
+            <div class="top">
+                <div class="img">
+                    <img id="img" src="./Images/Student.png" alt="student image" width="150px" height="150px">
+                </div>
+                <h1 style="margin: 0.5rem 0rem 0.2rem 0rem;">Join Mentorship, Be the Expert from Zero to Hero</h1>
+            </div>
+
+            <h2 style="text-align: center; font-size: 35px; margin: 0 0 10px 0; font-family: cursive;">Our Programs </h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <header class="head">
+                      <h3>Web Development</h3>
+                    </header>
+                
+                    <div class="dis">
+                      <p>Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an intranet (a private network). Learn HTML, CSS, JS and apply it to create your First Web Page.</p>
+                    </div>
+                
+                    <footer>
+                        <div id="btn">
+                            <button onclick="alert('Wecome to Web Development')">Apply Now!</button>
+                        </div>
+                    </footer>
+                </div>
+
+                <div class="card">
+                    <header class="head">
+                      <h3>App Development</h3>
+                    </header>
+                
+                    <div class="dis">
+                      <p>Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones.</p>
+                    </div>
+                
+                    <footer>
+                        <div id="btn">
+                            <button onclick="alert('Wecome to App Development')">Apply Now!</button>
+                        </div>
+                    </footer>
+                </div>
+
+                <div class="card">
+                    <header class="head">
+                      <h3>Graphic Designing</h3>
+                    </header>
+                
+                    <div class="dis">
+                      <p>Graphic design is the art, profession and academic discipline whose activity consists in projecting visual communications intended to transmit specific messages to social groups. </p>
+                    </div>
+                
+                    <footer>
+                        <div id="btn">
+                            <button onclick="alert('Wecome to Graphic Designing')">Apply Now!</button>
+                        </div>
+                    </footer>
+                </div>
+
+                <div class="card">
+                    <header class="head">
+                      <h3>Soft Skill</h3>
+                    </header>
+                
+                    <div class="dis">
+                      <p>Soft skills are a combination of people skills, social skills, communication skills, character or personality traits, attitudes, mindsets, career attributes etc among others.</p>
+                    </div>
+                
+                    <footer>
+                        <div id="btn">
+                            <button onclick="alert('Wecome to the Soft Skill Program')">Apply Now!</button>
+                        </div>
+                    </footer>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentorship Form  -->
+
+    <section id="form">
+        <form action="backend.php">
+            <fieldset>
+                <legend> Join as a Mentor</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="abcd xyz"><br>
+
+                <label for="mail">Email ID:</label>
+                <input type="email" id="mail" placeholder="abcd@xyz.com"><br>
+
+                <label for="phone">Phone number:</label>
+                <input type="text" name="MobileNumber" maxlength="10" placeholder="7842xxxxxx"/><br>
+
+                <label for="College">College name:</label>
+                <input type="text" id="College" placeholder="abcd university"><br>
+
+                <label for="Graduation">Year of Graduation:</label>
+                <select id="Graduation">
+                    <option value="2019">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                    <option value="1990">1990</option>
+                </select> <br>
+
+                <label for="domain">Domain of Expertize:</label>
+                <select id="domain">
+                    <option> Web Development</option>
+                    <option> App Development</option>
+                    <option>Graphic Designing</option>
+                    <option> Soft Skill / Personality Development</option>
+                </select> <br>
+
+                <label for="work">Share Some of Your Past Work:</label><br>
+                <textarea id="work" cols="30" rows="10" placeholder="Enter Your Work Here"></textarea> <br>
+
+                <div class="fbtn">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+<!-- Testinomial  -->
+
+    <section>
+        <div class="cont">
+            <img src="./Images/man.webp" alt="Avatar" style="width:90px">
+            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+            <p>John Doe saved us from a web disaster.</p>
+          </div>
+          
+          <div class="cont">
+            <img src="./Images/female.webp" alt="Avatar" style="width:90px">
+            <p><span>Rebecca Flex.</span> CEO at Company.</p>
+            <p>No one is better than John Doe.</p>
+          </div>
+
+          <div class="cont">
+            <img src="./Images/man.webp" alt="Avatar" style="width:90px">
+            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+            <p>John Doe saved us from a web disaster.</p>
+          </div>
+          
+          <div class="cont">
+            <img src="./Images/female.webp" alt="Avatar" style="width:90px">
+            <p><span>Rebecca Flex.</span> CEO at Company.</p>
+            <p>No one is better than John Doe.</p>
+          </div>
+    </section>
+
+
+<!-- Footer  -->
+
+    <section>
+
+        <div class="fcont">
+            <div class="header">
+                <h2 class="">&gt&gt&gtGET IN TOUCH</h2>  
+                <div class="row">
+                    <div class="col">
+                        <p><a href="#"><span><i class="fa fa-whatsapp fa-2x"></i>Whatsapp Group</span></a></p>
+                        <p><a href="#"><span><i class="fa fa-linkedin fa-2x"></i>LinkedIn Page</span></a></p>
+                        <p><a href="#"><span><i class="fa fa-youtube fa-2x"></i>Youtube Channel</span></a></p>
+                    </div>
+                    <div class="col">
+                        <p><a href=""><span><i class="fa fa-facebook fa-2x"></i>Facebook Page</span></a></p>
+                        <p><a href=""><span><i class="fa fa-instagram fa-2x"></i>Instagram Page</span></a></p>
+                        <p><a href=""><span><i class="fa fa-telegram fa-2x"></i>Telegram Group</span></a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <img src="./Images/Techtable Logo.png" alt="Logo">
+                <div>
+                    <h3>Location</h3>
+                    <p>Nirmaan IITM, Chennai 600036</p>
+                </div>
+                <div>
+                    <h3>Email Address</h3>
+                    <p> admin@techtable.co.in</p>
+                </div>
+                <div>
+                    <h3>Mobile Number</h3>
+                    <p>+91 9940332489</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
