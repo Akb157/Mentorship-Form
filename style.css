@@ -219,10 +219,12 @@ a:hover{
 
 @media(max-width: 750px){
 
-    .top{
-        
+    .toptop{
+        height: 100vh;
         display: inline;
         text-align: center;
+        justify-content: center;
+        margin-top: 5rem;
     }
 
     .top .img{
