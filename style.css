@@ -78,6 +78,9 @@ button{
 .ment{
     background-image: url("./Images/Mentor.jpg");
     background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
     padding: 1rem 0rem 4rem 0rem;
 }
 form{
@@ -181,6 +184,9 @@ input[type=text], select , [type=email], textarea {
     background-image: url("./Images/footer.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
     color: white;
     display: flex;
     flex-wrap: wrap;
