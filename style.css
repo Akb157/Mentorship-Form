@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #eec739;
+    background-color: #63c3db;
     font-family: Arial, Helvetica, sans-serif;
     
     
@@ -24,25 +24,29 @@ body{
     margin-left: 2.5rem;
 }
 
+
 .cards{
     margin: 1rem;
     display: flex;
 }
 
-.head{
-    font-size: 1.5rem;
+.head h3{
+    margin: 0.25rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
+
+
 .dis{
-    font-size: 1.25rem;
-    margin:0.5rem;
+    font-size: 1rem;
+    margin:0.25rem;
 }
 
 
 .card{
-    background-color: #e7713a;
-    border: 6px solid black;
+    background-color: #eee;
+    border: 5px solid black;
     border-radius: 1rem;
     font-size: 22px;
     text-align: center;
@@ -61,7 +65,7 @@ button{
     font-weight: bold;
     text-align: center;
     background-color:#eec739;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: 3px solid black;
 }
 
@@ -71,9 +75,14 @@ button{
 
 
 /* Mentor Form  */
-
+.ment{
+    background-image: url("./Images/Mentor.jpg");
+    background-size: cover;
+    padding: 1rem 0rem 4rem 0rem;
+}
 form{
-    margin: 3rem 1rem 3rem 1rem;
+    width: 50%;
+    margin: auto;
 }
 
 fieldset{
@@ -88,7 +97,7 @@ legend{
 }
 
 label{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     
 }
@@ -104,10 +113,12 @@ input[type=text], select , [type=email], textarea {
 
   
   input[type=submit]  {
+    font-size: 1rem;
+    font-weight: bold;
     width: 50%;
     background-color: #4CAF50;
     color: white;
-    padding: 14px 20px;
+    padding: 7px 0px 7px 0px;
     margin: 8px ;
     border: none;
     border: 3px solid black;
@@ -115,11 +126,13 @@ input[type=text], select , [type=email], textarea {
     cursor: pointer;
   }
   input[type=reset]  {
+    font-size: 1rem;
+    font-weight: bold;
     width: 50%;
     background-color: rgb(224, 24, 24);
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 7px 0px 7px 0px;
+    margin: 8px ;
     border: 3px solid black;
     border-radius: 1rem;
     cursor: pointer;
@@ -135,7 +148,8 @@ input[type=text], select , [type=email], textarea {
 /* Testinomial  */
 
 .cont {
-    font-size: 1.5rem;
+    
+    font-size: 1.25rem;
     border: 2px solid #ccc;
     background-color: #eee;
     border-radius: 5px;
@@ -156,7 +170,7 @@ input[type=text], select , [type=email], textarea {
   }
   
   .cont span {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-right: 15px;
   }
   
@@ -164,8 +178,10 @@ input[type=text], select , [type=email], textarea {
 /* Footer  */
 
 .fcont{
-    background-color: #e7713a;
-    /* background-image: url(./Images/bckg.jpg); */
+    background-image: url("./Images/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
@@ -174,7 +190,6 @@ input[type=text], select , [type=email], textarea {
     border-radius: 0.75rem;
     color: #000
 }
-
 
 .row{
     display: flex;
@@ -222,6 +237,9 @@ a:hover{
 
 
 @media(max-width: 950px){
+    body{
+        margin: 0;
+    }
 
     .toptop{
         height: 100vh;
@@ -254,14 +272,20 @@ a:hover{
         width:90%;
     }
     
+
     form{
+        width: fit-content;
         margin: 10px;
     }
 
 
     input [type=submit],[type=reset]  {
-        padding: auto;
+        width: 100%;
         text-align: center;
+    }
+
+    .fbtn{
+        width: 100%;
     }
 
     .img{
