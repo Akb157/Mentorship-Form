@@ -247,7 +247,7 @@ a:hover{
 }
 
 
-@media(max-width: 950px){
+@media(max-width: 1000px){
     body{
         margin: 0;
     }
