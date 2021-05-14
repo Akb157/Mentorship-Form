@@ -161,7 +161,6 @@ input[type=text], select , [type=email], textarea {
     padding: 15px;
     margin: 0.75rem;
     width: 25%;
-    height: fit-content;
   }
   
   .cont::after {
